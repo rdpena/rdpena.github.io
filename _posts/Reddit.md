@@ -613,7 +613,7 @@ ax[1].axis("off");
 ```
 
 
-![png](output_33_0.png)
+![png](/images/reddit/output_33_0.png)
 
 
 The barplot above shows the top 10 most frequently used words in the data set. The word `til`, abbreviation of 'Today I Learned', is the most frequently used word, appearing 839 times from the pool of 5999 titles.  
@@ -659,7 +659,7 @@ plt.title('TSNE Plot');
 ```
 
 
-![png](output_39_0.png)
+![png](/images/reddit/output_39_0.png)
 
 
 The TSNE plot shown above is a graphical representation how datasets appear based on the first two dimensions. It can be observed that the plot does not give a meaningful insight on how many clusters are there in the dataset. Clustering must be performed to clearly see how many clusters exist in the dataset.
@@ -814,7 +814,7 @@ plot_clusters(X_title_trunc, res_title['ys']);
 ```
 
 
-![png](output_47_0.png)
+![png](/images/reddit/output_47_0.png)
 
 
 The plots generated above visualizes the dataset clustered into different k clusters. Determining the number of clusters by visualization might not be enough since not enough judgement can be obtained if the following desired characteristics of a good cluster will be considered:
@@ -862,7 +862,7 @@ plot_internal(res_title['inertias'], res_title['chs'],
 ```
 
 
-![png](output_52_0.png)
+![png](/images/reddit/output_52_0.png)
 
 
 The different plots above provide guidance in choosing the optimal number of k. Based on SSE and CH, the elbow point tells the optimal k. The lowest k giving the lowest Inter/Intra ratio will be the optimal k. For Silhouette coefficient, k that generates high SC is the optimal k.  
@@ -953,7 +953,7 @@ ax[2][2].axis("off");
 ```
 
 
-![png](output_57_0.png)
+![png](/images/reddit/output_57_0.png)
 
 
 The 7 topics generated gives a significant insight about the dataset. The titles may have been published between December 2016 to January 2017 when Donald Trump had just won the US Elections back in November 2016. There was also an emergence of an online debate whether Sanders could have been a better candidate than Clinton for the Democratic Party. These two clusters indicates that one of the most talked about topic of Reddit users is **politics**.
@@ -977,7 +977,7 @@ plt.title('Distribution of Titles Among Generated Clusters');
 ```
 
 
-![png](output_59_0.png)
+![png](/images/reddit/output_59_0.png)
 
 
 Looking at the histogram shown above, it can be observed that there is still imbalance of datasets per cluster. This means that the obtained results are general topics and can be further improved by using different methods of clustering or further processing of dataset.
@@ -1222,7 +1222,7 @@ plt.show()
 
 
 
-![png](output_68_1.png)
+![png](/images/reddit/output_68_1.png)
 
 
 It can be observed that 64.52% of the titles are neutral in nature. But interestingly, there are a lot of negative titles compared to positive ones. The distribution may have been affected by the events that happened during the time these titles were published.
@@ -1260,7 +1260,7 @@ ax[2].set_title("Neutral",fontsize=6);
 ```
 
 
-![png](output_71_0.png)
+![png](/images/reddit/output_71_0.png)
 
 
 It can be observed that positive titles talk about new year and gaming. Negative titles are associated with US politics, giving an insight that Reddit users have negative sentiment on the outcome of the US elections. One of the negative words shown in the word cloud is 'Trump', who happened to be the newly elected US president during the time the titles were published online.  
