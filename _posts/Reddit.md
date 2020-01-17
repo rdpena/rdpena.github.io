@@ -1,7 +1,7 @@
 ---
 title: "Reddit Between the Lines: Unveiling Subreddit Topics"
 date: 2019-07-03
-tags: [data wrangling, data science, clustering]
+tags: [data wrangling, nlp, clustering]
 header:
 excerpt: "Data Wrangling, Natural Language Processing, Clustering"
 mathjax: "true"
