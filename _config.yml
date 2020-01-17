@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Rosely D. Peña"
 title_separator          : "-"
 name                     : "Rosely D. Peña"
-description              : "Data Science Portfolio"
+description              : "MS Data Science student at AIM"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Rosely D. Peña"
   avatar           : "/images/pen.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "MS Data Science student at AIM"
   location         : "PH"
   email            : "roselydpena@gmail.com"
   uri              :
