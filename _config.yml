@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rosely D. Peña"
+title                    : # "Rosely D. Peña"
 title_separator          : "-"
 name                     : "Rosely D. Peña"
 description              : "MS Data Science student at AIM"
@@ -98,7 +98,7 @@ author:
   facebook         :
   foursquare       :
   github           : "rdpena"
-  gitlab           :
+  gitlab           :  
   google_plus      :
   keybase          :
   instagram        :
