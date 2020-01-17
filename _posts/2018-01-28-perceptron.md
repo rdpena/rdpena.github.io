@@ -1,9 +1,8 @@
 ---
 title: "NBA Clustering"
-date: 2018-01-28
+date: 2019-07-23
 tags: [data wrangling, data science, clustering]
 header:
-  image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Clustering"
 mathjax: "true"
 ---
