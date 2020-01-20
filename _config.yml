@@ -90,7 +90,7 @@ author:
   location         : "PH"
   email            : "roselydpena@gmail.com"
   uri              :
-  home             : "/_pages/about.md"# null (default), "absolute or relative url to link to author home"
+  home             : "/_pages/about.md" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
