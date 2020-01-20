@@ -23,17 +23,17 @@
 .page {
   @include breakpoint($large) {
     float: right;
-//     width: calc(100% - #{$right-sidebar-width-narrow});
-    width: 90%;
-    padding-right:10%;
-//     padding-right: $right-sidebar-width-narrow;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+//     width: 90%;
+//     padding-right:10%;
+    padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-//     width: calc(100% - #{$right-sidebar-width});
-//     padding-right: $right-sidebar-width;
-    width: 90%;
-    padding-right:10%;   
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+//     width: 90%;
+//     padding-right:10%;   
   }
 
   .page__inner-wrap {
